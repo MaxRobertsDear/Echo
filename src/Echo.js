@@ -13,6 +13,10 @@ Echo.prototype.response = function() {
   });
 }
 
+var echo = new Echo();
+echo.greeting();
+echo.response();
+
 module.exports = Echo;
 
 
