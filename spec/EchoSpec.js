@@ -11,7 +11,13 @@ describe("Echo", function() {
     echo.greeting();
     expect(console.log).toHaveBeenCalledWith("Say something: ");
   })
-  
+
+  it("should return 'You said: (input)'", function() {
+    var stdin = require('mock-stdin').stdin();
+    echo.response();
+    stdin.send("Hello World");
+    expect(console.log).toHaveBeenCalledWith("You said: Hello World")
+  })
 
 });
 
