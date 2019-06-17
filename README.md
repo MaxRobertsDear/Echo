@@ -4,7 +4,7 @@ An app that repeats what you say !
 
 ### Requirements
 
-- The app runs on the command line or.
+- The app runs on the command line.
 
 - It's fine to use Ruby or JavaScript.
 
