@@ -2,6 +2,14 @@
 
 An app that repeats what you say !
 
+### Reflections
+
+Despite the simplicity of this app and how little code was required to build it, I learned significantly:
+
+- The distinction between a CLI and a REPL.
+
+- How to mock and stub an asynchronous function.
+
 ### Requirements
 
 - The app runs on the command line.
